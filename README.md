@@ -150,6 +150,6 @@ C++ features and complex link scenarios. Bug reports and PRs welcome.
 
 ## License
 
-License TBD — see repository for details once added. Regardless of license,
-you must supply your own legally-obtained Xbox 360 XDK to target the console;
-no Microsoft SDK material is distributed in this repository.
+Released under the [MIT License](LICENSE). Note that this covers the
+NexiaCompiler source only — you must supply your own legally-obtained Xbox 360
+XDK to target the console; no Microsoft SDK material is distributed here.
