@@ -1,0 +1,35 @@
+# ===========================================================================
+# Xbox 360 XDK — proprietary Microsoft material, NEVER commit
+# You must supply your own XDK. See README "Compiling for Xbox 360".
+# ===========================================================================
+lib/
+sdk/
+Extractor/d3d9_extracted/
+Extractor/*.lib
+*.lib
+*.rights
+
+# === Build artifacts ===
+build/
+*.o
+*.obj
+*.a
+*.exe
+*.elf
+*.xex
+
+# === Compiler run output ===
+nexiac_log.txt
+*.log
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editor / IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

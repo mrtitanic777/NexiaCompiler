@@ -1,0 +1,12 @@
+# Let git normalize line endings; keep Windows batch files as CRLF.
+* text=auto
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.sh  text eol=lf
+
+# Binary / proprietary payloads (also gitignored)
+*.lib   binary
+*.obj   binary
+*.exe   binary
+*.a     binary
+*.xex   binary
